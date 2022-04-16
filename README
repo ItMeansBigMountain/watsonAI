@@ -1,0 +1,21 @@
+
+When started, bot will build json files of settings and server db
+use graphing.py to run analytics after the api.py is hosting all json files from dir
+
+
+Flaw is that the db is json and should have a REST api hosted from django models posted from main.py
+    just change the inputs into the db (writing of file)
+    build REST with endpoints to add user, chats, stats whenever there are events.
+
+
+
+
+
+api keys are stripped
+    discord - bottom of the code | main.py
+    watson -   login()           | watson.py
+
+all end points need to be configured with cloud computer public DNS ip
+
+tone analysis was depreciated so I removed the seperate functions
+    functionality is the exact same without.
